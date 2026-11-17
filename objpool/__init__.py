@@ -1,1 +1,1 @@
-"""对象池引用计数"""
+from .core import *  # noqa: F401,F403
