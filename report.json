@@ -1,0 +1,17 @@
+{
+  "capacity": 4,
+  "double_release_errors": 0,
+  "exhausted_errors": 0,
+  "leak_list": [
+    {
+      "acquire_seq": 3,
+      "slot": 0,
+      "tag": "a"
+    }
+  ],
+  "leaks": 1,
+  "ops_total": 5,
+  "peak": 2,
+  "resets": 2,
+  "unmatched_releases": 0
+}
