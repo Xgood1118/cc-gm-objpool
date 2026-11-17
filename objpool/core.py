@@ -13,16 +13,6 @@ class Obj:
     dirty: bool = False
 
 
-def Obj:
-    """class"""
-    raise NotImplementedError("Obj 尚未实现")
-
-
-def ObjPool:
-    """class"""
-    raise NotImplementedError("ObjPool 尚未实现")
-
-
 def acquire(pool, tag):
     """申请"""
     raise NotImplementedError("acquire 尚未实现")
@@ -36,4 +26,11 @@ def release(pool, obj):
 def leaks(pool):
     """列泄漏"""
     raise NotImplementedError("leaks 尚未实现")
+
+
+class ObjPool:
+    """class"""
+
+    def __init__(self, *args, **kwargs):
+        raise NotImplementedError("ObjPool 尚未实现")
 
